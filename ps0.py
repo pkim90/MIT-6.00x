@@ -7,6 +7,4 @@
 
 lname = raw_input('Enter your last name:')
 fname = raw_input('Enter your first name:')
-print lname
-print fname
-
+print 'Hello'+' '+fname+' '+lname

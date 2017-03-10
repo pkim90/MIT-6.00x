@@ -1,0 +1,25 @@
+et 2
+#Name: Peter Kim
+#Collaborators: ???
+#Time: 
+
+#problem 1
+
+#Not much to it, just find out if you can buy x number of nuggets using multiples of 
+#6, 9, 15.
+
+#problem 2
+
+#If it is possible to buy x, x+1, x+2, ..., x+5 sets of nuggets for some x, then
+ it is possible to buy any number of nuggets >=x, as long as nuggets come in 6,
+9, 20.
+
+#Why does that work? I have no clue. Sorry.
+
+
+If it is possible to buy x, x+1,…, x+5 sets of McNuggets, for some x, then it is
+possible to buy any number of McNuggets >= x, given that McNuggets come in 6, 9 and 20
+packs.
+Problem 2.
+Explain, in English, why this theorem is true.
+Save your answers for problems 1 and 2 as ps2.txt.

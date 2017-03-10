@@ -7,20 +7,28 @@
 #Problem 1
 
 prime = 0
-cand = 3
+cand = 1
 test = 1
 M  = 0
 
 while prime < 1000:
-	M = 0
-	while test < cand/2:
-		if test % cand == 0:
-			M = 1
-			break
+	
+	while test < cand:
+		
+		if cand % test == 0:
+			M = M +1
+			
+		if M > 1:
+			test = cand
 		test = test + 1
-	test = 1
-	cand = cand + 2
-	if M == 0:
+	if M < 2:
 		prime = prime + 1
-		print cand
-		print prime
+		print 'found'+' '+str(cand)
+	cand = cand + 2
+	test = 1
+	M = 0
+
+
+#Problem 2
+
+
