@@ -20,10 +20,13 @@ def countSubStringMatch(target, key):
 
     x = 0
     total = 0
-    while find(target, key, x) > 0:
+    while find(target, key, x) >= 0:
         find(target, key, x)
         total = total + 1
-        x = find(target, key, x)
+        print find(target,key,x)
+        x = find(target, key, x) + 1
+        print x
+
     return total
 
 def countSubStringMatchRecursive(target, key):
