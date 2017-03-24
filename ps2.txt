@@ -1,14 +1,28 @@
 et 2
 #Name: Peter Kim
 #Collaborators: ???
-#Time: 
+#Time:
 
 #problem 1
 
-#Not much to it, just find out if you can buy x number of nuggets using multiples of 
+#Not much to it, just find out if you can buy x number of nuggets using multiples of
 #6, 9, 15.
 
 #problem 2
+
+Hypothesize possible instances of numbers of McNuggets that cannot be purchased
+exactly, starting with 1
+For each possible instance, called n,
+Test if there exists non-negative integers a, b, and c, such that
+6a+9b+20c = n. (This can be done by looking at all feasible
+combinations of a, b, and c)
+If not, n cannot be bought in exact quantity, save n
+When you have found six consecutive values of n that in fact pass the test of
+having an exact solution, the last answer that was saved (not the last value
+of n that had a solution) is the correct answer, since you know by the
+theorem that any amount larger can also be bought in exact quantity
+
+
 
 #If it is possible to buy x, x+1, x+2, ..., x+5 sets of nuggets for some x, then
  it is possible to buy any number of nuggets >=x, as long as nuggets come in 6,

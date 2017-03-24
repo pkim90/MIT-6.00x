@@ -1,4 +1,4 @@
-from string import *
+
 #
 # Write two functions, called countSubStringMatch and
 # countSubStringMatchRecursive that
@@ -15,13 +15,13 @@ from string import *
 # # returns the value 5, while
 # # find("atgacatgcacaagtatgcat","atgc",6)
 # # returns the value 15,
+from string import *
 
 def countSubStringMatch(target, key):
 
     x = 0
     total = 0
     while find(target, key, x) >= 0:
-        find(target, key, x)
         total = total + 1
         print find(target,key,x)
         x = find(target, key, x) + 1
